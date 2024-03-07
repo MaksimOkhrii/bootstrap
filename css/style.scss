@@ -1,0 +1,57 @@
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
+.header_icon{
+  display: flex;
+  align-items: center;
+  li{
+    list-style: none;
+&:first-of-type{
+  margin-right: 15px;
+  position: relative;
+  top: -3px;
+}
+    &:last-of-type{
+      margin-left: 7px;
+    }
+  }
+}
+.container{
+  max-width: 1064px;
+}
+.navbar-brand{
+  position: absolute;
+  left: 50%;
+  top: 7px;
+}
+header{
+  padding-top: 15px;
+}
+.main_banner {
+  background: #F0EFEB;
+  padding: 90px 0;
+
+  img {
+    position: relative;
+    top: -90px;
+    @include max-screen(767px) {
+      width: 100%;
+      top: 0;
+    }
+  }
+}
+.guides{
+  padding: 60px 0 88px;
+  p{
+    max-width: 632px;
+    margin: auto;
+  }
+}
+.sellers{
+.card{
+  max-width: 309px;
+  display: inline-block;
+}
+}

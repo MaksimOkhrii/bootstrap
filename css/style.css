@@ -1,0 +1,59 @@
+.header_icon {
+  display: flex;
+  align-items: center;
+}
+.header_icon li {
+  list-style: none;
+}
+.header_icon li:first-of-type {
+  margin-right: 15px;
+  position: relative;
+  top: -3px;
+}
+.header_icon li:last-of-type {
+  margin-left: 7px;
+}
+
+.container {
+  max-width: 1064px;
+}
+
+.navbar-brand {
+  position: absolute;
+  left: 50%;
+  top: 7px;
+}
+
+header {
+  padding-top: 15px;
+}
+
+.main_banner {
+  background: #F0EFEB;
+  padding: 90px 0;
+}
+.main_banner img {
+  position: relative;
+  top: -90px;
+}
+@media screen and (max-width: 767px) {
+  .main_banner img {
+    width: 100%;
+    top: 0;
+  }
+}
+
+.guides {
+  padding: 60px 0 88px;
+}
+.guides p {
+  max-width: 632px;
+  margin: auto;
+}
+
+.sellers .card {
+  max-width: 309px;
+  display: inline-block;
+}
+
+/*# sourceMappingURL=style.css.map */
