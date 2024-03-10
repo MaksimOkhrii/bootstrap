@@ -3,12 +3,21 @@
     @content;
   }
 }
+
+$text_color: #000000;
+$main_font: 'Roboto';
+$background: #F0EFEB;
+
+*{
+  padding: 0;
+  margin: 0;
+}
 .header_icon{
   display: flex;
   align-items: center;
   li{
     list-style: none;
-&:first-of-type{
+  &:first-of-type{
   margin-right: 15px;
   position: relative;
   top: -3px;
@@ -29,10 +38,36 @@
 header{
   padding-top: 15px;
 }
+.nav-link{
+  font-family: $main_font;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+color: $text_color;
+}
 .main_banner {
-  background: #F0EFEB;
+  background: $background;
   padding: 90px 0;
-
+h1{
+  font-family: $main_font;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0em;
+  text-align: left;
+color: $text_color;
+  p{
+    font-family: $main_font;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $text_color
+  }
+}
   img {
     position: relative;
     top: -90px;
@@ -42,16 +77,138 @@ header{
     }
   }
 }
-.guides{
+.btn{
+  border-radius: 17px;
+}
+.guides {
   padding: 60px 0 88px;
-  p{
-    max-width: 632px;
-    margin: auto;
+
+    h2 {
+      font-family: $main_font;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 42px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: $text_color;
+    }
+
+    p {
+      max-width: 632px;
+      margin: auto;
+      font-family: $main_font;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 23px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: $text_color;
+
+      &:first-of-type {
+        margin: 27px auto 47px;
+      }
+    }
+  }
+
+.sellers{
+  padding-bottom: 182px;
+  h2{
+    font-family: $main_font;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:$text_color ;
+    margin-bottom: 52px;
+
+  }
+
+  .card {
+    max-width: 309px;
+    display: inline-block;
+    border: none;
+
+    .card-body {
+      padding: 0;
+
+      h5 {
+        font-family: $main_font;
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: $text_color;
+        margin: 27px 0 17px;
+      }
+
+      p {
+        font-family: $main_font;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: $text_color;
+        margin-bottom: 4px;
+      }
+
+      a {
+        font-family: $main_font;
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: $text_color;
+        text-decoration: underline;
+      }
+    }
   }
 }
-.sellers{
-.card{
-  max-width: 309px;
-  display: inline-block;
-}
+.people {
+  background: $background;
+padding: 76px 0 51px;
+  .col-5{
+    img{
+      min-height: 525px;
+      min-width: 385px;
+      width: 100%;
+    }
+  }
+  .col-6 {
+max-width: 532px;
+    h3 {
+      font-family: $main_font;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 42px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: $text_color;
+    }
+
+    p {
+      font-family: $main_font;
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 42px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: $text_color;
+      margin: 31px auto 40px;
+    }
+
+    a {
+      font-family: $main_font;
+      font-size: 17px;
+      font-weight: 700;
+      line-height: 20px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: $text_color;
+      text-decoration: underline;
+    }
+  }
 }
