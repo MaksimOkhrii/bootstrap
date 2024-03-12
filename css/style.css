@@ -157,21 +157,37 @@ header {
   text-align: center;
   color: #000000;
   text-decoration: underline;
+  transition: 0.4s;
+}
+.sellers .card .card-body a:hover {
+  color: #491217;
 }
 
 .people {
   background: #F0EFEB;
   padding: 76px 0 51px;
 }
-.people .col-5 img {
-  min-height: 525px;
-  min-width: 385px;
+.people .container {
+  max-width: 1064px;
+}
+@media screen and (max-width: 991px) {
+  .people .container .row .col-md-5 img {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+}
+.people .container .row .card {
+  min-width: 309px;
+  display: inline-block;
+  border: none;
+  background: #F0EFEB;
+}
+.people .container .row .card img {
+  max-height: 525px;
+  max-width: 385px;
   width: 100%;
 }
-.people .col-6 {
-  max-width: 532px;
-}
-.people .col-6 h3 {
+.people .container .row h3 {
   font-family: "Roboto";
   font-size: 36px;
   font-weight: 700;
@@ -179,8 +195,9 @@ header {
   letter-spacing: 0em;
   text-align: left;
   color: #000000;
+  margin-top: 20px;
 }
-.people .col-6 p {
+.people .container .row p {
   font-family: "Roboto";
   font-size: 36px;
   font-weight: 400;
@@ -190,7 +207,7 @@ header {
   color: #000000;
   margin: 31px auto 40px;
 }
-.people .col-6 a {
+.people .container .row a {
   font-family: "Roboto";
   font-size: 17px;
   font-weight: 700;
@@ -199,6 +216,141 @@ header {
   text-align: left;
   color: #000000;
   text-decoration: underline;
+  transition: 0.4s;
+}
+.people .container .row a:hover {
+  color: #491217;
+}
+
+.culture {
+  background: rgba(204, 204, 204, 0.6);
+  padding: 76px 0 50px;
+}
+.culture .container {
+  max-width: 1164px;
+}
+@media screen and (max-width: 991px) {
+  .culture .container .col-md-5 img {
+    margin-top: 20px;
+    width: 100%;
+  }
+}
+.culture .container h3 {
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #000000;
+}
+.culture .container p {
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #000000;
+  margin: 31px auto 40px;
+}
+.culture .container a {
+  font-family: "Roboto";
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #000000;
+}
+.culture .container a:hover {
+  text-decoration-line: underline;
+}
+
+.power {
+  background: rgba(204, 204, 204, 0.3019607843);
+  padding: 76px 0 51px;
+}
+.power .container {
+  max-width: 1064px;
+}
+@media screen and (max-width: 991px) {
+  .power .container .row .col-md-5 img {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+}
+.power .container .row .card {
+  min-width: 309px;
+  display: inline-block;
+  border: none;
+  background: #F0EFEB;
+}
+.power .container .row .card img {
+  max-height: 525px;
+  max-width: 385px;
+  width: 100%;
+}
+.power .container .row h3 {
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+  margin-top: 20px;
+}
+.power .container .row p {
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+  margin: 31px auto 40px;
+}
+.power .container .row a {
+  font-family: "Roboto";
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+  text-decoration: underline;
+  transition: 0.4s;
+}
+.power .container .row a:hover {
+  color: #491217;
+}
+
+.make_thalby {
+  padding: 190px 0 52px;
+}
+.make_thalby article {
+  margin-bottom: 111px;
+}
+.make_thalby h3 {
+  margin-bottom: 69px;
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
+}
+.make_thalby p {
+  margin-top: 26px;
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
 }
 
 /*# sourceMappingURL=style.css.map */
