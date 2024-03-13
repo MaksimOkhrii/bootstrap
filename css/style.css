@@ -353,4 +353,35 @@ header {
   color: #000000;
 }
 
+.interviews {
+  background: linear-gradient(to top, #F0F0F0 54%, white 46%);
+  padding: 0 0 52px;
+}
+@media screen and (max-width: 894px) {
+  .interviews {
+    background: linear-gradient(to top, #F0F0F0 90%, white 10%);
+  }
+}
+@media screen and (max-width: 768px) {
+  .interviews {
+    background: linear-gradient(to top, #F0F0F0 92%, white 8%);
+  }
+}
+.interviews .container {
+  max-width: 1280px;
+}
+.interviews .container h3 {
+  margin-bottom: 102px;
+}
+.interviews .container .card {
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  max-width: 288px;
+}
+.interviews .container .card img {
+  max-width: 288px;
+  max-height: 351px;
+}
+
 /*# sourceMappingURL=style.css.map */

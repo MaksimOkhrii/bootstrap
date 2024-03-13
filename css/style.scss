@@ -387,3 +387,29 @@ padding: 76px 0 50px;
     }
 
 }
+.interviews{
+  background:  linear-gradient(to  top, #F0F0F0 54%, white 46%);
+  padding: 0 0 52px;
+  @include  max-screen(894px){
+    background:  linear-gradient(to  top, #F0F0F0 90%, white 10%);
+}
+  @include  max-screen(768px){
+    background:  linear-gradient(to  top, #F0F0F0 92%, white 8%);
+  }
+  .container{
+    max-width: 1280px;
+    h3{
+      margin-bottom: 102px;
+    }
+    .card{
+background-color: transparent;
+border: none;
+      text-align: center;
+      max-width: 288px;
+    img{
+      max-width: 288px;
+      max-height: 351px;
+    }
+  }
+  }
+}
