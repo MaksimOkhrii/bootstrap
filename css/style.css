@@ -383,5 +383,148 @@ header {
   max-width: 288px;
   max-height: 351px;
 }
+.interviews .container .card .card-body {
+  padding: 0;
+}
+.interviews .container .card .card-body h5 {
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 25.78px;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: #000000;
+  margin: 35px auto 40px;
+}
+.interviews .container .card .card-body p {
+  font-family: "Roboto";
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 22.27px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 44px;
+}
+.interviews .container .card .card-body a {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.09px;
+  text-align: center;
+  color: #000000;
+  text-decoration: underline;
+}
+
+.form {
+  padding: 79px 0 88px;
+}
+.form h5 {
+  margin-bottom: 26px;
+}
+.form form .form-name p input {
+  max-width: 153px;
+  margin: 0 30px;
+  padding-left: 8px;
+}
+@media screen and (max-width: 767px) {
+  .form form .form-name p input {
+    max-width: 100px;
+    margin: 0 15px;
+  }
+}
+.form form .form-mail input {
+  width: 366px;
+  padding-left: 8px;
+}
+@media screen and (max-width: 767px) {
+  .form form .form-mail input {
+    max-width: 230px;
+  }
+}
+.form form .Subscribe input {
+  padding: 7px 23px 10px;
+  background: #000000;
+  border: 1px solid #000000;
+  border-radius: 100px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+footer {
+  background: #020202;
+}
+footer .container {
+  padding: 51px 0 16px;
+}
+@media screen and (max-width: 834px) {
+  footer .container {
+    padding: 25px 25px 10px 25px;
+    display: inline-flex;
+  }
+}
+@media screen and (max-width: 767px) {
+  footer .container {
+    display: block;
+  }
+}
+footer .container .row .logosvg {
+  padding-top: 45px;
+}
+@media screen and (max-width: 768px) {
+  footer .container .row .logosvg {
+    display: flex;
+  }
+}
+footer .container .row .logosvg img {
+  margin-right: 22px;
+}
+@media screen and (max-width: 834px) {
+  footer .container .row .logosvg img {
+    margin-bottom: 20px;
+    display: flex;
+  }
+}
+footer .container .row ul {
+  margin-left: 39px;
+}
+@media screen and (max-width: 834px) {
+  footer .container .row ul {
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  footer .container .row ul {
+    margin-left: 0;
+  }
+}
+footer .container .row ul li {
+  list-style: none;
+}
+footer .container .row ul li:first-of-type {
+  padding-bottom: 36px;
+}
+footer .container .row ul li a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+footer .container .text-center {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0;
+}
 
 /*# sourceMappingURL=style.css.map */
